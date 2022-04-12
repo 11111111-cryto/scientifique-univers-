@@ -1,0 +1,148 @@
+body {
+    background-image: url(alt.jpg);
+    background-size: cover;
+    margin: 0; padding: 0;
+    font-size: 12px Arial;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-color:rgba(24, 190, 255, 0.836);
+}
+.tt {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 500px; left: 10px;
+    height: 50px;
+    
+    width: 360px; height: 100px;
+    color:black;
+    text-align: center;
+}
+
+.uu {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px; left: 50px;
+    height: 50px;
+    font-size: 40px;
+    color: rgb(253, 249, 249);
+    text-align: center;
+}
+.qq {
+    position: absolute;
+    top: 320px; left: 0px;
+    width: 400px; height: 150px;
+    background-image: url(oo.jpg);
+    background-size: contain;
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+
+.menu {
+    height: 60px;
+    list-style: none;
+    padding: 10px ;
+    position: absolute;
+    top: 200px;
+    z-index: 1;
+}
+.menu li {
+    float: left;
+    width: 200px;
+}
+.menu li a:link, .menu li a:visiteD {
+    display: block;
+    color: white;
+    background: rgb(139, 137, 137);
+    padding: 10px 35px ;
+    border-right: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+}
+.menu .sousmenu {
+    list-style-position: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+.menu .sousmenu li {
+    float: none;
+    color: aqua;
+    padding: 0;
+    border-top: 1px solid transparent;
+    border-right: solid transparent;
+}
+.menu .sousmenu li a:lin, .menu  li  a:visite {
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(235, 235, 235);
+}
+.menu .sousmenu li a:hover {
+    background-color: rgb(8, 8, 8);
+
+}
+.menu li:hover .sousmenu {
+    display: block;
+    background-color: rgb(252, 252, 252);
+    font-size: 20px;
+}
+
+.rr {
+    width: 380px; height: 200px;
+    position: absolute;
+    top: 950px ; left: 10px;
+}
+.pp {
+    position: absolute;
+    top: 1150px ; left: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.i1 {
+    width: 390px; height: 500px;
+    position: absolute;
+    top: 1680px; left: 5px ;
+    
+}
+.i2 {
+    width: 390px; height: 500px;
+    position: absolute;
+    top: 2200px; left: 5px ;
+}
+.i3 {
+    width: 390px; height: 500px;
+    position: absolute;
+    top: 2720px; left: 5px ;
+}
+.i4 {
+    width: 390px; height: 500px;
+    position: absolute;
+    top: 3240px; left: 5px ;
+}
+.i5 {
+    width: 390px; height: 500px;
+    position: absolute;
+    top: 3760px; left: 5px ;
+}
+.ppp { 
+    position: absolute;
+    top: 1450px ; left: 15px;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+.oo {
+    width: 390px; height: 100px;
+    position: absolute;
+    top: 4280px;  width: 370px;
+    background-color:  rgb(139, 137, 137);
+    color: white;
+    text-align: center;
+}
+

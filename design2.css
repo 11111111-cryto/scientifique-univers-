@@ -1,0 +1,143 @@
+body{ 
+    background-color: rgba(24, 190, 255, 0.836);
+}
+h4 {
+    margin: 0; padding: 0;
+    top: 10px ; left: 10px ;
+    position: absolute;
+    text-align: center;
+    width: 1000px; height: 50px ;
+    color: white ;
+    background-color: rgba(24, 28, 255, 0.836) ;
+    font-size: 40px ;
+}
+.qq {
+    margin: 0; padding: 0; 
+    top: 150px ; left: 120px ;
+    position: absolute;
+    text-align: center;
+    color: red;
+    font-size: 60px ;
+    text-align: center;
+}
+.aa {
+    margin: 0; padding: 0;
+    top: 250px ; left: 50px ;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 60px ;
+    text-align: center;
+}
+
+
+.fra {
+    display:flex;
+    color: rgb(245, 248, 242);
+    text-align: center;
+    font-size: 30px;
+    top: 570px; left: 250px;
+    border: 0; 
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 15px 30px;
+    justify-content: center ;
+    transition: all .4s;
+    
+
+}
+ .fra:hover::after {
+     transform: rotate(150deg);
+ }
+
+
+
+.fra::after {
+    content: "";
+     width: 500px; height: 500px;
+     background: linear-gradient( 225deg, red  0%, blue 30%, rgb(24, 252, 4) 80%,
+     rgb(219, 9, 125) 100%);  
+     position: absolute;
+     z-index: -1;
+     top: -150px; left: -100px;
+     transition: all .4s;
+}
+.fra:hover {
+    transform: translate(0, -6px);
+    box-shadow: 0 10px 20px blueviolet;
+}
+.mat {
+    display:flex;
+    color: rgb(245, 248, 242);
+    text-align: center;
+    font-size: 30px;
+    top: 500px; left: 700px;
+    border: 0; 
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 15px 30px;
+    justify-content: center ;
+    transition: all .4s;
+    
+
+}
+ .mat:hover::after {
+     transform: rotate(150deg);
+ }
+
+
+
+.mat::after {
+    content: "";
+     width: 500px; height: 500px;
+     background: linear-gradient( 225deg, red  0%, blue 30%, rgb(24, 252, 4) 70%,
+      rgb(219, 9, 125) 100%);  
+     position: absolute;
+     z-index: -1;
+     top: -150px; left: -100px;
+     transition: all .4s;
+}
+.mat:hover {
+    transform: translate(0, -6px);
+    box-shadow: 0 10px 20px blueviolet;
+}
+.button2 {
+    display:flex;
+    margin: 0; padding: 0;
+    color: rgb(245, 248, 242);
+    text-align: center;
+    font-size: 40px;
+    top: 45px; left: 20px;
+    position: absolute;
+    border: 0; 
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 20px 50px;
+    justify-content: center ;
+    transition: all .4s;
+    
+
+}
+ .button2:hover::after {
+     transform: rotate(150deg);
+ }
+
+.button2::after {
+    content: "";
+     width: 550px; height: 550px;
+     background: linear-gradient( 225deg, red  0%, blue 50%, rgb(24, 252, 4) 100%);  
+     position: absolute;
+     z-index: -1;
+     top: -50px; left: -150px;
+     transition: all .4s;
+}
+.button2:hover {
+    transform: translate(0, -6px);
+    box-shadow: 0 10px 20px blueviolet;
+}
